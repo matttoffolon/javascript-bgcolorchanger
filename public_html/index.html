@@ -1,0 +1,52 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="test js background changer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: blue;">
+
+    <div class="container h-100">
+        <div class="row align-items-center h-100">
+            <div class="mx-auto">
+                <button type="button" class="btn btn-primary" id="button">Click here</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        let root = document.getElementById("button");
+        let colors = [];
+
+        colors.push('blue', 'red', 'yellow', 'pink', 'orange', 'cyan', 'green', 'brown');
+
+
+
+
+        root.addEventListener("click", function () {
+
+            const colorIndex = Math.floor(Math.random() * colors.length);
+
+            document.body.style.backgroundColor = colors[colorIndex];
+
+
+        });
+
+
+
+
+    </script>
+</body>
+
+
+
+</html>

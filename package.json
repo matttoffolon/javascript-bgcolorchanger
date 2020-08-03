@@ -1,0 +1,22 @@
+{
+  "name": "test-javascript-bgcolorchanger",
+  "version": "1.0.0",
+  "description": "test javascript background colour changer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matttoffolon/test-javascript-bgcolorchanger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matttoffolon/test-javascript-bgcolorchanger/issues"
+  },
+  "homepage": "https://github.com/matttoffolon/test-javascript-bgcolorchanger#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
